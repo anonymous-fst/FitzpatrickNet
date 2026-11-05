@@ -1,0 +1,28 @@
+# ── Core deep learning ────────────────────────────────────────────────────────
+torch==2.2.0
+torchvision==0.17.0
+timm==0.9.16
+
+# ── Scientific computing ──────────────────────────────────────────────────────
+numpy==1.26.4
+pandas==2.2.1
+scikit-learn==1.4.1
+scipy==1.12.0
+
+# ── Image processing ─────────────────────────────────────────────────────────
+Pillow==10.2.0
+opencv-python-headless==4.9.0.80
+scikit-image==0.22.0
+
+# ── Visualisation ─────────────────────────────────────────────────────────────
+matplotlib==3.8.3
+seaborn==0.13.2
+
+# ── Utilities ─────────────────────────────────────────────────────────────────
+tqdm==4.66.2
+kneed==0.8.5
+joblib==1.3.2
+
+# ── Optional: hyperparameter optimisation ────────────────────────────────────
+# Uncomment to enable Optuna mode (--mode optuna)
+# optuna==3.5.0
